@@ -1702,3 +1702,134 @@ footer
         top: -84px;
     }
 }
+
+/* UNIFIED RESPONSIVE ADJUSTMENTS */
+@media screen and (max-width: 1100px) {
+    .content-1170 {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .section-title-holder,
+    .section-content-holder,
+    .extra-content-left,
+    .extra-content-right,
+    .portfolio-holder,
+    .member-content-holder,
+    .member-image-holder {
+        width: 100% !important;
+        float: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        position: relative !important;
+        height: auto !important;
+    }
+
+    .section-title-holder {
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .section-title-holder h2 {
+        width: auto;
+        margin: 0 0 10px;
+        font-size: 48px;
+        line-height: 1.1;
+    }
+
+    .section-num span {
+        margin-left: 0;
+        font-size: 60px;
+        display: block;
+    }
+
+    .section-content-holder .content-wrapper {
+        padding: 0;
+    }
+
+    .service-holder,
+    .grid-item,
+    .grid-sizer,
+    .grid-item.p_one_half,
+    .grid-item.p_one {
+        width: 100% !important;
+        float: none !important;
+        display: block !important;
+    }
+
+    .service-holder {
+        margin-bottom: 20px;
+    }
+
+    .grid-item {
+        margin: 0 0 20px;
+    }
+
+    .portfolio-text-holder {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        background: rgba(255,255,255,0.95);
+    }
+
+    .portfolio-text-wrapper {
+        width: 100%;
+        padding: 0;
+    }
+
+    .portfolio-text,
+    .portfolio-sec-text {
+        letter-spacing: 1px;
+        margin: 0;
+    }
+
+    .top-logo {
+        padding-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    h1.big-title {
+        padding-top: 40px;
+        font-size: 38px;
+    }
+
+    .title-desc {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .content-1170 {
+        padding: 0 15px;
+    }
+
+    .section {
+        padding: 30px 0;
+    }
+
+    h1.big-title {
+        font-size: 32px;
+        padding-top: 30px;
+    }
+
+    .title-desc {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .section-title-holder h2 {
+        font-size: 38px;
+    }
+}
